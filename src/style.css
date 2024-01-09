@@ -1,0 +1,295 @@
+body {
+    margin-inline: auto;
+    font-size: clamp(0.8rem,1.2rem,2rem);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #aaa;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    margin:0;
+
+}
+
+nav > ul > li {
+    display: inline-block;
+    background: #e3f1f3;
+    position: relative;
+    width: clamp(6ch, 7ch, 8ch);
+    text-align: center;
+    line-height: 2rem;
+}
+nav > ul > li:hover {
+    background-color: #7fecd5;
+}
+
+li .drop-down {
+    position: absolute;
+    padding: 0;
+    width: 100%;
+
+}
+
+li >.drop-down  li {
+    list-style-type: none;
+    cursor: pointer; 
+    text-align: center;  
+    position: relative;
+    margin:1px;
+}
+
+li > .drop-down li {
+    /* background-color: #aaa; */
+    background: #e3f1f3;
+
+    display: none;
+}
+
+li:hover .drop-down li {
+    display: block;
+}
+.drop-down li:hover {
+    background-color: #7fecd5;
+}
+li:hover .menu1 {
+    perspective: 1000;
+}
+/* menu-1 */
+
+
+ li:hover .menu1 li:nth-child(1) {
+    animation-name: anime1;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 150ms;
+    animation-play-state: running;
+}
+li:hover .menu1 li:nth-child(2) {
+    animation-name: anime1;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 300ms;
+    animation-play-state: running;
+}
+li:hover .menu1 li:nth-child(3) {
+    animation-name: anime1;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 450ms;
+    animation-play-state: running;
+}
+li:hover .menu1 li:nth-child(4) {
+    animation-name: anime1;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 600ms;
+    animation-play-state: running;
+}
+li:hover .menu1 li:nth-child(5) {
+    animation-name: anime1;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 750ms;
+    animation-play-state: running;
+}
+
+@keyframes anime1 {
+    0% {
+        opacity: 0.4;
+        transform:  translateX(10rem) scale(0.01);
+    }    
+    100% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+/* menu 2 */
+li:hover .menu2 li:nth-child(1) {
+    animation-name: anime2;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 150ms;
+    animation-play-state: running;
+}
+li:hover .menu2 li:nth-child(2) {
+    animation-name: anime2;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 300ms;
+    animation-play-state: running;
+}
+li:hover .menu2 li:nth-child(3) {
+    animation-name: anime2;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 450ms;
+    animation-play-state: running;
+}
+li:hover .menu2 li:nth-child(4) {
+    animation-name: anime2;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 600ms;
+    animation-play-state: running;
+}
+li:hover .menu2 li:nth-child(5) {
+    animation-name: anime2;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 750ms;
+    animation-play-state: running;
+}
+
+@keyframes anime2 {
+    0% {
+        opacity: 0.4;
+        transform:  translateX(10rem) scale(0.01);
+    }    
+    100% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+/* menu 3 */
+li:hover .menu3 li:nth-child(1) {
+    animation-name: anime3;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 150ms;
+    animation-play-state: running;
+}
+li:hover .menu3 li:nth-child(2) {
+    animation-name: anime3;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 300ms;
+    animation-play-state: running;
+}
+li:hover .menu3 li:nth-child(3) {
+    animation-name: anime3;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 450ms;
+    animation-play-state: running;
+}
+li:hover .menu3 li:nth-child(4) {
+    animation-name: anime3;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 600ms;
+    animation-play-state: running;
+}
+li:hover .menu3 li:nth-child(5) {
+    animation-name: anime3;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 750ms;
+    animation-play-state: running;
+}
+
+@keyframes anime3 {
+    0% {
+        opacity: 0.4;
+        transform:  translateX(10rem) scale(0.01);
+    }    
+    100% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+ 
+/* menu 4 */
+li:hover .menu4 li:nth-child(1) {
+    animation-name: anime4;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 150ms;
+    animation-play-state: running;
+}
+li:hover .menu4 li:nth-child(2) {
+    animation-name: anime4;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 300ms;
+    animation-play-state: running;
+}
+li:hover .menu4 li:nth-child(3) {
+    animation-name: anime4;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 450ms;
+    animation-play-state: running;
+}
+li:hover .menu4 li:nth-child(4) {
+    animation-name: anime4;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 600ms;
+    animation-play-state: running;
+}
+li:hover .menu4 li:nth-child(5) {
+    animation-name: anime4;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:  1;
+    animation-direction: forwards;
+    animation-delay: 750ms;
+    animation-play-state: running;
+}
+
+@keyframes anime4 {
+    0% {
+        opacity: 0.4;
+        transform:  translateX(10rem) scale(0.01);
+    }    
+    100% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
